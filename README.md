@@ -1,4 +1,4 @@
-# Vinç Kiralama Mobil Uygulaması
+# 🏗️ Vinç Kiralama Mobil Uygulaması
 
 [![Tanıtım Videosu](https://img.shields.io/badge/YouTube-İzle-red?style=for-the-badge&logo=youtube)](https://youtu.be/paX0iAmHX-4)
 
@@ -10,48 +10,46 @@ Vinç Kiralama Projesi, vinç kiralama işlemlerini dijitalleştiren, firma ve m
 
 | Karşılama Ekranı | Müşteri Kaydı | Firma Başvurusu |
 |:---:|:---:|:---:|
-| <img width="421" height="879" alt="Image" src="https://github.com/user-attachments/assets/42302fd9-5d39-4332-b116-d65e0ac5cfee" /> | <img width="421" height="879" alt="Image" src="https://github.com/user-attachments/assets/25ad177c-e86e-4272-9b34-1dab5f75fefd" /> | <img width="423" height="882" alt="Image" src="https://github.com/user-attachments/assets/a8f75874-ff50-4e99-8366-096de782d1bb" /> |
+| <img width="250" alt="Karşılama" src="https://github.com/user-attachments/assets/42302fd9-5d39-4332-b116-d65e0ac5cfee" /> | <img width="250" alt="Kayıt" src="https://github.com/user-attachments/assets/25ad177c-e86e-4272-9b34-1dab5f75fefd" /> | <img width="250" alt="Başvuru" src="https://github.com/user-attachments/assets/a8f75874-ff50-4e99-8366-096de782d1bb" /> |
 
-| Firma Paneli | Admin Paneli |
+| Firma Paneli | Admin Paneli | Aktif İşler |
 |:---:|:---:|:---:|
-| <img width="419" height="877" alt="Image" src="https://github.com/user-attachments/assets/ab795dc0-5dca-494d-af90-ff247aa7289c" /> | <img width="423" height="881" alt="Image" src="https://github.com/user-attachments/assets/272f358c-7dfe-4907-af77-898de8300dd7" /> | <img width="420" height="871" alt="Image" src="https://github.com/user-attachments/assets/8a1696e7-24f5-4970-a162-569bde404d73" /> |
+| <img width="250" alt="Firma" src="https://github.com/user-attachments/assets/ab795dc0-5dca-494d-af90-ff247aa7289c" /> | <img width="250" alt="Admin" src="https://github.com/user-attachments/assets/272f358c-7dfe-4907-af77-898de8300dd7" /> | <img width="250" alt="İşler" src="https://github.com/user-attachments/assets/8a1696e7-24f5-4970-a162-569bde404d73" /> |
 
 ---
 
-## Özellikler
+## 🚀 Özellikler
 
-### Müşteri Modülü
-- Güvenli kullanıcı kaydı ve girişi
-- Vinç kiralama talebi oluşturma
-- Aktif ve tamamlanmış işleri görüntüleme
-- Firma tekliflerini karşılaştırma ve seçim yapma
-- Firmalarla doğrudan iletişim
-- Anlık bildirim sistemi
+### 👤 Müşteri Modülü
+- **Güvenli Erişim:** Kullanıcı kaydı ve JWT tabanlı giriş.
+- **Talep Yönetimi:** Detaylı vinç kiralama talebi oluşturma.
+- **İş Takibi:** Aktif ve tamamlanmış işleri anlık görüntüleme.
+- **Teklif Karşılaştırma:** Firmalardan gelen teklifleri inceleme ve onaylama.
+- **İletişim:** Firmalarla doğrudan irtibat kurma ve bildirim alma.
 
-### Firma Modülü
-- Firma kaydı ve admin onay sistemi
-- Vinç filosunu yönetme (Ekleme, Düzenleme, Silme)
-- Müşteri taleplerine teklif verme
-- İş geçmişi takibi ve raporlama
-- Güvenli firma anahtarı ile giriş
+### 🏢 Firma Modülü
+- **Onaylı Kayıt:** Admin denetimli firma kayıt sistemi.
+- **Filo Yönetimi:** Vinç araçlarını ekleme, güncelleme ve silme.
+- **Teklif Verme:** Müşteri taleplerine fiyat ve detay iletme.
+- **Raporlama:** Geçmiş işlerin ve finansal verilerin takibi.
 
-### Admin Paneli
-- Firma başvurularını onaylama/reddetme
-- Kullanıcı ve firma yönetimi
-- Sistem geneli istatistik takibi
-- Platform genel yapılandırması
+### 👨‍💼 Admin Paneli
+- **Denetim:** Yeni firma başvurularını inceleme ve onaylama.
+- **Yönetim:** Kullanıcı ve firma veritabanını görüntüleme.
+- **İstatistik:** Platformun genel kullanım verilerini analiz etme.
 
 ---
 
-## Mimari Yapı
+## 🛠️ Mimari Yapı
 
-Proje, sürdürülebilirlik ve test edilebilirlik için katmanlı mimari ile yapılandırılmıştır:
+Uygulama, **Clean Architecture** prensipleriyle 4 ana katman üzerine inşa edilmiştir:
+
 
 
 ```text
 lib/
-├── core/           # Çekirdek işlevler (Router, Storage, Env)
-├── data/           # Veri katmanı (Datasources, Repositories)
-├── domain/         # İş mantığı katmanı (Entities, Use Cases)
-├── presentation/   # Sunum katmanı (UI, Riverpod Providers)
-└── main.dart       # Giriş noktası
+├── core/           # Router (GoRouter), Storage, Güvenlik ve Temalar
+├── data/           # Remote & Local Datasources, Repository Impls
+├── domain/         # Entities, Repository Interfaces, Use Cases
+├── presentation/   # UI Screens, Widgets, Riverpod Providers
+└── main.dart       # Uygulama başlangıç konfigürasyonu
