@@ -10,7 +10,7 @@ Vinç Kiralama Projesi, vinç kiralama işlemlerini dijitalleştiren, firma ve m
 
 | Karşılama Ekranı | Müşteri Kaydı | Firma Başvurusu |
 |:---:|:---:|:---:|
-| <img width="421" height="879" alt="Image" src="https://github.com/user-attachments/assets/42302fd9-5d39-4332-b116-d65e0ac5cfee" /> | <img src="screenshots/customer_register.png" width="200"> | <img src="screenshots/firm_apply.png" width="200"> |
+| <img width="421" height="879" alt="Image" src="https://github.com/user-attachments/assets/42302fd9-5d39-4332-b116-d65e0ac5cfee" /> | <img width="421" height="879" alt="Image" src="https://github.com/user-attachments/assets/25ad177c-e86e-4272-9b34-1dab5f75fefd" /> | <img src="screenshots/firm_apply.png" width="200"> |
 
 | Firma Paneli | Admin Paneli |
 |:---:|:---:|
