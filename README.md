@@ -1,6 +1,7 @@
 # 🏗️ Vinç Kiralama Mobil Uygulaması
 
-[![Tanıtım Videosu](https://img.shields.io/badge/YouTube-İzle-red?style=for-the-badge&logo=youtube)](https://youtu.be/paX0iAmHX-4)
+[![Tanıtım Videosu](https://img.shields.io/badge/YouTube-İzle-red?style=for-the-badge&logo=youtube)](https://youtu.be/paX0iAmHX-4)  
+> 📺 **Video Linki:** [https://youtu.be/paX0iAmHX-4](https://youtu.be/paX0iAmHX-4)
 
 Vinç Kiralama Projesi, vinç kiralama işlemlerini dijitalleştiren, firma ve müşterileri bir araya getiren modern bir mobil uygulamadır. Flutter ile geliştirilmiş, **Clean Architecture** prensiplerine uygun, güvenli ve kullanıcı dostu bir platformdur.
 
