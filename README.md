@@ -14,7 +14,7 @@ Vinç Kiralama Projesi, vinç kiralama işlemlerini dijitalleştiren, firma ve m
 
 | Firma Paneli | Admin Paneli |
 |:---:|:---:|
-| <img src="screenshots/firm_panel.png" width="200"> | <img src="screenshots/admin_panel.png" width="200"> |
+| <img width="419" height="877" alt="Image" src="https://github.com/user-attachments/assets/ab795dc0-5dca-494d-af90-ff247aa7289c" /> | <img src="screenshots/admin_panel.png" width="200"> |
 
 ---
 
